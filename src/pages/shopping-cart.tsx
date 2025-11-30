@@ -1,0 +1,22 @@
+import logo from "../assets/images/logo/footer-logo.svg";
+import Header from "../components/header";
+import Breadcrumbs from "../components/breadcrumbs";
+import AppPart from "../components/app-part";
+import Footer from "../components/footer";
+import ShoppingCartSec from "../components/shoppingCart";
+
+function ShoppingCart() {
+  return (
+    <div>
+      <Header className="header-two  header-three" logo={logo} />
+      <main>
+        <Breadcrumbs title="Shopping Cart" address="Shopping Cart" />
+        <ShoppingCartSec />
+        <AppPart />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default ShoppingCart;
