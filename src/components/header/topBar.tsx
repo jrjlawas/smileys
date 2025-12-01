@@ -1,10 +1,10 @@
-import TopBarDropDown from "./topBarDropDown";
+// import TopBarDropDown from "./topBarDropDown";
 
 function TopBar() {
   return (
     <div className="container">
       <div className="header-main">
-        <div className="header-left">
+        {/* <div className="header-left">
           <div className="header-left-btn">
             <div className="icon">
               <span>
@@ -33,16 +33,16 @@ function TopBar() {
             </div>
             <TopBarDropDown />
           </div>
-        </div>
+        </div> */}
 
-        <div className="header-left-center">
+        {/* <div className="header-left-center">
           <p>
             It's the last day to save. The skills for now —{" "}
             <span>
               <a href="#">now on sale.</a>
             </span>
           </p>
-        </div>
+        </div> */}
 
         <div className="header-right">
           <div className="header-right-item">
