@@ -23,7 +23,7 @@ function FoodGrid() {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="traditional-head">
-              <h2>Some Traditional Food Based on Location</h2>
+              <h2>Our Menus</h2>
             </div>
           </div>
         </div>

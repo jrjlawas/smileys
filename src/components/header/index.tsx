@@ -3,7 +3,7 @@ import NavButton from "./navButton";
 import { Link } from "react-router-dom";
 import NavSearch from "../forms/navSearch";
 import HeaderCart from "./cart";
-// import Loggedin from "./loggedin";
+import Loggedin from "./loggedin";
 import logoImg from "../../assets/images/logo/logo-header.svg";
 import useSticky from "../../hooks/useSticky";
 import MobileNav from "./mobileNav";
@@ -111,6 +111,7 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
                         </div>
                       </Link>
                       <HeaderCart />
+                      <Loggedin />
                       {/* if user logged in show this  */}
                       {/* <Loggedin /> */}
                     </div>

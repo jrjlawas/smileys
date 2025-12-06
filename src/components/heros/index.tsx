@@ -8,48 +8,19 @@ function Hero() {
           <div className="col-lg-6">
             <div className="banner-two-taitel">
               <h1>
-                Crafting your Exceptional Dining <span>Reservations</span>
+                <span>Strathmore’s #1</span> Spot for Breakfast, Brunch & Good
+                Vibes
               </h1>
 
               <p>
-                Reservation is a step into a world of gastronomic wonder.
-                Reserve your table today and let us paint your culinary dreams
-                into reality.
+                Proudly known as the Best Breakfast in Town, Smiley’s Restaurant
+                & Lounge serves fresh, flavorful meals daily at 330 Ridge Rd,
+                Strathmore, AB Canada.
               </p>
             </div>
 
             <div className="banner-taiteL-btn">
-              <Link to="#" className="main-btn main-btn-two ">
-                <span>
-                  <svg
-                    width="28"
-                    height="28"
-                    viewBox="0 0 28 28"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M16.333 22.1667V8.16667M16.333 22.1667H18.6663M16.333 22.1667H10.4997M16.333 8.16667C16.333 5.58934 14.2437 3.5 11.6663 3.5H6.99967C4.42235 3.5 2.33301 5.58934 2.33301 8.16667V17.5C2.33301 19.6761 3.82245 21.5043 5.83749 22.0208M16.333 8.16667H20.077C20.6698 8.16667 21.2404 8.3923 21.6728 8.79775L24.9289 11.8503C25.3994 12.2914 25.6663 12.9076 25.6663 13.5525V19.8333C25.6663 21.122 24.6217 22.1667 23.333 22.1667M23.333 22.1667C23.333 23.4553 22.2883 24.5 20.9997 24.5C19.711 24.5 18.6663 23.4553 18.6663 22.1667M23.333 22.1667C23.333 20.878 22.2883 19.8333 20.9997 19.8333C19.711 19.8333 18.6663 20.878 18.6663 22.1667M10.4997 22.1667C10.4997 23.4553 9.45501 24.5 8.16634 24.5C6.87768 24.5 5.83301 23.4553 5.83301 22.1667C5.83301 22.1177 5.83452 22.069 5.83749 22.0208M10.4997 22.1667C10.4997 20.878 9.45501 19.8333 8.16634 19.8333C6.92667 19.8333 5.91279 20.8001 5.83749 22.0208"
-                      strokeWidth="1.5"
-                    />
-                    <path
-                      d="M11.6663 9.33203H9.33301"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                    <path
-                      d="M11.6667 14L7 14"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-                Delivery
-              </Link>
-
-              <Link to="#" className=" main-btn-two-banner ">
+              <Link to="#" className=" main-btn main-btn-two ">
                 <span>
                   <svg
                     width="24"

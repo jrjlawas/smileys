@@ -52,7 +52,7 @@
         display: flex;
         padding: 12px;
         background-color: #fff;
-        width: 612px; 
+        width: min(90%, 612px);
         border-radius: 10px; 
         box-shadow: 0px 30px 30px 0px rgba(90, 90, 90, 0.10);
         gap: 12px;
@@ -133,7 +133,7 @@ letter-spacing: -0.68px;
     display: flex;
   padding: 12px;
   background-color: #fff;
-  width: 612px;
+  width: min(90%, 612px);
   border-radius: 10px;
   box-shadow: 0px 30px 30px 0px rgba(90, 90, 90, 0.1);
   gap: 12px;

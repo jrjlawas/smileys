@@ -11,7 +11,10 @@ function Faq() {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12" data-aos="fade-left">
             <div className="faq-head">
-              <h2>Foodie FAQ: Your Culinary Queries Answered</h2>
+              <h2>
+                Smiley's FAQ: Quick answers to the questions our guests ask the
+                most.
+              </h2>
             </div>
             <Accordion />
           </div>

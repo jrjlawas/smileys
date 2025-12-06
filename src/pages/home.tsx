@@ -17,14 +17,14 @@ function Home() {
       <Header className="header-two" logo={logo} />
       <main>
         <Hero />
-        <Categories />
-        <Promotions />
-        <FoodGrid />
-        <Process />
+        {/* <Categories />
+        <Promotions /> */}
+        {/* <FoodGrid />
+        <Process /> */}
         <PopularFood />
         <Testimonials />
         <Faq />
-        <AppPart />
+        {/* <AppPart /> */}
       </main>
       <Footer />
     </div>
