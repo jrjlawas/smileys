@@ -5,8 +5,8 @@ import Hero from "../components/heros";
 // import FoodGrid from "../components/foodGrid";
 // import Process from "../components/Process";
 import PopularFood from "../components/popularFood";
-import Testimonials from "../components/testimonials";
-import Faq from "../components/faq";
+// import Testimonials from "../components/testimonials";
+// import Faq from "../components/faq";
 // import AppPart from "../components/app-part";
 import Footer from "../components/footer";
 import logo from "../assets/images/logo/footer-logo.svg";
@@ -22,8 +22,9 @@ function Home() {
         {/* <FoodGrid />
         <Process /> */}
         <PopularFood />
-        <Testimonials />
-        <Faq />
+        {/* <Testimonials /> */}
+
+        {/* <Faq /> */}
         {/* <AppPart /> */}
       </main>
       <Footer />

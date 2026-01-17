@@ -1,9 +1,9 @@
 import TopBar from "./topBar";
 import NavButton from "./navButton";
 import { Link } from "react-router-dom";
-import NavSearch from "../forms/navSearch";
-import HeaderCart from "./cart";
-import Loggedin from "./loggedin";
+// import NavSearch from "../forms/navSearch";
+// import HeaderCart from "./cart";
+// import Loggedin from "./loggedin";
 import logoImg from "../../assets/images/logo/logo-header.svg";
 import useSticky from "../../hooks/useSticky";
 import MobileNav from "./mobileNav";
@@ -31,16 +31,19 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
 
                     <div className="menu">
                       <ul>
-                        <NavButton
+                        <NavButton title="Home" link="/" />
+                        {/* <NavButton
                           title="Home"
                           link="#"
                           subMenu={[
                             { link: "/", title: "Home-01" },
                             { link: "/home-two", title: "Home-02" },
                           ]}
-                        />
-                        <NavButton title="Menu" link="/all-food" />
-                        <NavButton
+                        /> */}
+                        <NavButton title="Our Menu" link="/all-food" />
+                        <NavButton title="About Us" link="/about" />
+                        <NavButton title="Contact Us" link="/contact" />
+                        {/* <NavButton
                           title="Pages"
                           link="#"
                           subMenu={[
@@ -80,13 +83,13 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
                               title: "Trust And Safety",
                             },
                           ]}
-                        />
-                        <NavButton title="user dashboard" link="/dashboard" />
+                        /> */}
+                        {/* <NavButton title="user dashboard" link="/dashboard" /> */}
                       </ul>
                     </div>
                   </div>
 
-                  <div className="nav-btn-main">
+                  {/* <div className="nav-btn-main">
                     <NavSearch />
 
                     <div className="nav-btn-two">
@@ -112,8 +115,8 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
                       </Link>
                       <HeaderCart />
                       <Loggedin />
-                      {/* if user logged in show this  */}
-                      {/* <Loggedin /> */}
+                      if user logged in show this 
+                      <Loggedin />
                     </div>
                   </div>
 
@@ -124,7 +127,7 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
                     <Link to="/sign-up" className="main-btn">
                       Sign Up
                     </Link>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
