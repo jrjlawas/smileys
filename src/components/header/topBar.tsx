@@ -66,7 +66,7 @@ function TopBar() {
               </div>
 
               <div className="text">
-                <a href="tel:+17077970462">+1 707 797 0462</a>
+                <a href="tel:+4039345915">+403 934 5915</a>
               </div>
             </div>
             <div className="header-right-inner">
@@ -89,7 +89,10 @@ function TopBar() {
               </div>
 
               <div className="text">
-                <a href="mailto:Quomodosoft@gmail.com">Quomodosoft@gmail.com</a>
+                <a href="mailto:Quomodosoft@gmail.com">
+                  {" "}
+                  330 Ridge Rd, Strathmore, AB Canada
+                </a>
               </div>
             </div>
           </div>

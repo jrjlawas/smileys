@@ -23,12 +23,15 @@ function Footer() {
 
               <div className="footer-text">
                 <h4>
-                  At ReservQ, we invite you to embark on a journey of taste and
-                  delight.Our tables are more than just places.
+                  Smiley’s Restaurant & Lounge is your go-to spot in Strathmore
+                  for flavorful gourmet pizzas and signature Texas fried
+                  chicken. Crafted to satisfy and served with a smile, every
+                  meal is made to bring people together and create great
+                  moments.
                 </h4>
               </div>
 
-              <div className="footer-icon">
+              {/* <div className="footer-icon">
                 <div className="icon">
                   <a href="https://www.facebook.com/" target="_blank">
                     <i className="fa-brands fa-facebook-f"></i>
@@ -43,7 +46,7 @@ function Footer() {
                     <i className="fa-brands fa-youtube"></i>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             <div className="col-lg-8 mol-md-12 ">
@@ -61,6 +64,15 @@ function Footer() {
                     <div className="quick-line-menu">
                       <ul>
                         <li>
+                          <Link to="/all-food">Our Menu</Link>
+                        </li>
+                        <li>
+                          <Link to="/about">About Us</Link>
+                        </li>
+                        <li>
+                          <Link to="/contact">Contact Us</Link>
+                        </li>
+                        {/* <li>
                           <Link to="/dashboard">My Account</Link>
                         </li>
                         <li>
@@ -74,7 +86,7 @@ function Footer() {
                         </li>
                         <li>
                           <Link to="/contact">Pickup</Link>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -129,7 +141,7 @@ function Footer() {
                       </Link>
                     </div>
 
-                    <div className="quick-line-btn-text">
+                    {/* <div className="quick-line-btn-text">
                       <h6>We accept Payment methods:</h6>
                     </div>
 
@@ -149,7 +161,7 @@ function Footer() {
                       <a href="#">
                         <img src={googlePayIcon} alt="img" />
                       </a>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

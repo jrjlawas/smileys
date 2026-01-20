@@ -42,6 +42,10 @@ function Header({ className, logo }: { className?: string; logo?: string }) {
                         /> */}
                         <NavButton title="Our Menu" link="/all-food" />
                         <NavButton title="About Us" link="/about" />
+                        <NavButton
+                          title="Food Detail(Test)"
+                          link="/food-details"
+                        />
                         <NavButton title="Contact Us" link="/contact" />
                         {/* <NavButton
                           title="Pages"

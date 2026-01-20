@@ -20,9 +20,21 @@ function Offcanvas({
           </Link>
         </div>
         <ul className="nav-links">
-          <li className="dropdown">
-            <Link to="#">Home </Link>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/all-food">Our Menu</Link>
+          </li>
+          <li>
+            <Link to="/about">About Us</Link>
+          </li>
+          <li>
+            <Link to="/contact">Contact Us</Link>
+          </li>
 
+          {/* <li className="dropdown">
+            <Link to="#">Home </Link>
             <ul className="d-menu">
               <li>
                 <Link to="/">Home-01 </Link>
@@ -52,7 +64,7 @@ function Offcanvas({
                 <Link to="/blog-details">Blog-Details</Link>
               </li>
             </ul>
-          </li>
+          </li> */}
         </ul>
       </nav>
     </aside>

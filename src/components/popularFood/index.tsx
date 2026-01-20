@@ -1,4 +1,4 @@
-import { popularFoods } from "../../data/food";
+import { foods } from "../../data/food";
 import PopularFoodCard from "../cards/popularFoodCard";
 
 function PopularFood() {
@@ -14,7 +14,7 @@ function PopularFood() {
         </div>
 
         <div className="row popular-item-box-mt">
-          {popularFoods?.map((food) => (
+          {foods?.map((food) => (
             <PopularFoodCard key={food.id} food={food} />
           ))}
         </div>
