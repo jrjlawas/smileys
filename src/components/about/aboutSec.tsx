@@ -1,4 +1,4 @@
-import thumb from "../../assets/images/smiley/thumb1.svg";
+import thumb from "../../assets/images/smiley/thumb1.png";
 // import aboutIcon1 from "../../assets/images/icon/about-icon-1.png";
 // import aboutIcon2 from "../../assets/images/icon/about-icon-2.png";
 // import btnImg from "../../assets/images/small/Button.png";
