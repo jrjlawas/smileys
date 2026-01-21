@@ -1,12 +1,12 @@
 import Header from "../components/header";
 import Breadcrumbs from "../components/breadcrumbs";
 import Faq from "../components/faq";
-import AppPart from "../components/app-part";
+// import AppPart from "../components/app-part";
 import Footer from "../components/footer";
 import logo from "../assets/images/logo/footer-logo.svg";
 import AboutSec from "../components/about/aboutSec";
-import Process from "../components/Process";
-import PopularFood from "../components/popularFood";
+// import Process from "../components/Process";
+// import PopularFood from "../components/popularFood";
 import Testimonials from "../components/testimonials";
 
 function About() {
@@ -16,11 +16,11 @@ function About() {
       <main>
         <Breadcrumbs title="About us" address="About us" />
         <AboutSec />
-        <Process />
-        <PopularFood />
+        {/* <Process />
+        <PopularFood /> */}
         <Testimonials />
         <Faq />
-        <AppPart />
+        {/* <AppPart /> */}
       </main>
       <Footer />
     </div>

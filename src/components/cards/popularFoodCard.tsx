@@ -1,5 +1,5 @@
 import { popularFood } from "../../data/food";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function PopularFoodCard({ food }: { food: popularFood }) {
   const { title, img, items, reviews, price } = food;
@@ -71,44 +71,9 @@ function PopularFoodCard({ food }: { food: popularFood }) {
             <div className="text">
               <h3>${price}</h3>
             </div>
-            &nbsp;&nbsp;&nbsp;
-            <div className="popular-inner-item-btn">
+            {/* <div className="popular-inner-item-btn">
               <Link to="/shopping-cart" className="main-btn-five">
                 <span>
-                  {/* <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M6 4H18C20.2091 4 22 5.79086 22 8V13C22 15.2091 20.2091 17 18 17H10C7.79086 17 6 15.2091 6 13V4ZM6 4C6 2.89543 5.10457 2 4 2H2"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                    <path
-                      d="M11 20.5C11 21.3284 10.3284 22 9.5 22C8.67157 22 8 21.3284 8 20.5C8 19.6716 8.67157 19 9.5 19C10.3284 19 11 19.6716 11 20.5Z"
-                      strokeWidth="1.5"
-                    ></path>
-                    <path
-                      d="M20 20.5C20 21.3284 19.3284 22 18.5 22C17.6716 22 17 21.3284 17 20.5C17 19.6716 17.6716 19 18.5 19C19.3284 19 20 19.6716 20 20.5Z"
-                      strokeWidth="1.5"
-                    ></path>
-                    <path
-                      d="M14 8L14 13"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                    <path
-                      d="M16.5 10.5L11.5 10.5"
-                      strokeWidth="1.5"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    ></path>
-                  </svg> */}
                   <svg
                     width="24"
                     height="24"
@@ -134,7 +99,7 @@ function PopularFoodCard({ food }: { food: popularFood }) {
                 </span>
                 Details
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

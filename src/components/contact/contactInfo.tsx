@@ -36,7 +36,7 @@ function ContactInfo() {
                 <div className="text">
                   <h5>Contact Info</h5>
                   <p>Open a chat or give us call at</p>
-                  <a href="tel:+17077970462">+1 707 797 0462</a>
+                  <a href="tel:+4039345915">+403 934 5915</a>
                 </div>
               </div>
             </div>
@@ -72,12 +72,9 @@ function ContactInfo() {
                 </div>
 
                 <div className="text text-two ">
-                  <h5>Send a Email</h5>
+                  <h5>Send a Mail</h5>
                   <a href="mailto:Quomodosoft@gmailabdur.rohman2003@gmail.com">
-                    <p>
-                      Quomodosoft@gmail <br />
-                      abdur.rohman2003@gmail.com{" "}
-                    </p>
+                    <p>330 Ridge Rd, Strathmore, Alberta T1P 1B6 Canada</p>
                   </a>
                 </div>
               </div>

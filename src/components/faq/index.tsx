@@ -47,12 +47,12 @@ function Faq() {
                               />
                             </svg>
                           </span>
-                          235+
+                          10+
                         </h2>
 
                         <h4>
-                          Success
-                          <br /> Event
+                          Years
+                          <br /> of Service
                         </h4>
                       </div>
                     </div>
@@ -80,12 +80,12 @@ function Faq() {
                               />
                             </svg>
                           </span>
-                          235+
+                          150+
                         </h2>
 
                         <h4>
-                          Success
-                          <br /> Event
+                          Foods
+                          <br /> to Choose
                         </h4>
                       </div>
                     </div>

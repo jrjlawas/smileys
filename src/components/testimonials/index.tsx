@@ -1,7 +1,7 @@
 import TestimonialCard from "../cards/testimonialCard";
-import customerImg1 from "../../assets/images/small/customer-1.png";
-import customerImg2 from "../../assets/images/small/customer-2.png";
-import customerImg3 from "../../assets/images/small/customer-3.png";
+import customerImg1 from "../../assets/images/smiley/customers1.svg";
+import customerImg2 from "../../assets/images/smiley/customers2.svg";
+import customerImg3 from "../../assets/images/smiley/customers3.svg";
 
 function Testimonials() {
   return (
@@ -18,27 +18,22 @@ function Testimonials() {
         <div className="row">
           <TestimonialCard
             img={customerImg1}
-            review={`"An absolute foodie's paradise! The flavors at ReservQ are a
-                  symphony of delight. Every bite tells a story of passion and
-                  skill. A must-visit for anyone seeking beyond compare."`}
-            customerName="Jonson Roy"
-            customerProfession="Job Holder"
+            review={`"Their sign says “best breakfast in town” and I for one would highly agree!! Large portions and cooked exactly right. The service was excellent and they were extra helpful as we had an 14 month old with us. They also had a nice and very clean high chair which was nice. I am definitely going to be back to try their pizza next - I’ve been told it’s also very good."`}
+            customerName="Michael H"
+            customerProfession="Tripadvisor"
+          />
+
+          <TestimonialCard
+            img={customerImg3}
+            review={`"we have been going to Smileys for 20 years and love the Staff best food everThe pizzas are so good Burgers are the best.We have gone to other resteraunts but keep going back to smileys Breakfast ,so good and you get everything,"`}
+            customerName="Esther K"
+            customerProfession="Tripadvisor"
           />
           <TestimonialCard
             img={customerImg2}
-            review={`"An absolute foodie's paradise! The flavors at ReservQ are a
-                  symphony of delight. Every bite tells a story of passion and
-                  skill. A must-visit for anyone seeking beyond compare."`}
-            customerName="David Ethic"
-            customerProfession="Dog Trainer"
-          />
-          <TestimonialCard
-            img={customerImg3}
-            review={`"An absolute foodie's paradise! The flavors at ReservQ are a
-                  symphony of delight. Every bite tells a story of passion and
-                  skill. A must-visit for anyone seeking beyond compare."`}
-            customerName="Robert Fox"
-            customerProfession="Bike Trainer"
+            review={`"Quick tasty food with friendly, efficient servers. Gravy with fries and roast beef sandwich was the best! It’s always hit or miss with gravy but this place knocked it out of the park. Dessert was apple pie and had a hint of freezer burn, but flavour otherwise was good. Staff was out quick with the food and our water glasses and coffee were always kept topped up."`}
+            customerName="Zaboo M"
+            customerProfession="Tripadvisor"
           />
         </div>
       </div>

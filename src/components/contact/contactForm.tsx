@@ -10,7 +10,7 @@ function ContactForm() {
                 type="text"
                 className="form-control"
                 id="exampleFormControlInput2"
-                placeholder="Max"
+                placeholder="First Name"
               />
             </div>
             <div className="from-inner">
@@ -19,7 +19,7 @@ function ContactForm() {
                 type="text"
                 className="form-control"
                 id="exampleFormControlInput3"
-                placeholder="Mustermann"
+                placeholder="Last Name"
               />
             </div>
           </div>
@@ -30,7 +30,7 @@ function ContactForm() {
                 type="email"
                 className="form-control"
                 id="exampleFormControlInput4"
-                placeholder="Max"
+                placeholder="Email Address"
               />
             </div>
             <div className="from-inner">
@@ -39,7 +39,7 @@ function ContactForm() {
                 type="text"
                 className="form-control"
                 id="exampleFormControlInput5"
-                placeholder="+49 123456789"
+                placeholder="+403-XXX-XXXX"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ function ContactForm() {
                 className="form-control"
                 id="exampleFormControlTextarea1"
                 rows={5}
-                placeholder="Hier text ainfugen"
+                placeholder="Message"
               ></textarea>
             </div>
           </div>
