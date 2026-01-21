@@ -1,11 +1,11 @@
 import CopyRight from "./copyRight";
 import logo from "../../assets/images/logo/footer-logo.svg";
 import smsIcon from "../../assets/images/icon/sms.png";
-import visaIcon from "../../assets/images/small/Visa.png";
-import amexIcon from "../../assets/images/small/Amex.png";
-import paypalIcon from "../../assets/images/small/PayPal.png";
-import mastercardIcon from "../../assets/images/small/Mastercard.png";
-import googlePayIcon from "../../assets/images/small/GooglePay.png";
+// import visaIcon from "../../assets/images/small/Visa.png";
+// import amexIcon from "../../assets/images/small/Amex.png";
+// import paypalIcon from "../../assets/images/small/PayPal.png";
+// import mastercardIcon from "../../assets/images/small/Mastercard.png";
+// import googlePayIcon from "../../assets/images/small/GooglePay.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
