@@ -1,4 +1,9 @@
-import img1 from "../assets/images/thumb/featured-1.png";
+import bfmenu1 from "../assets/images/smiley/menus/breakfast/menu1.svg";
+import bfmenu2 from "../assets/images/smiley/menus/breakfast/menu2.svg";
+import bfmenu3 from "../assets/images/smiley/menus/breakfast/menu3.svg";
+import bfmenu4 from "../assets/images/smiley/menus/breakfast/menu4.svg";
+
+import img1 from "../assets/images/smiley/menus/default.svg";
 
 import pImg1 from "../assets/images/thumb/popular-1.png";
 import tagImg from "../assets/images/victor/populer.png";
@@ -35,7 +40,7 @@ export const foods: food[] = [
   {
     id: 1,
     title: "Two Eggs Any Style",
-    img: img1,
+    img: bfmenu1,
     categoryName: "Breakfast Beginnings",
     isPopular: "Y",
     items: ["Serve with Toast & Hash Browns"],
@@ -47,7 +52,7 @@ export const foods: food[] = [
   {
     id: 2,
     title: "Bacon, Ham, or Sausage & Eggs",
-    img: img1,
+    img: bfmenu2,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["Serve with Eggs, Toast & Hash Browns"],
@@ -59,7 +64,7 @@ export const foods: food[] = [
   {
     id: 3,
     title: "Steak & Eggs",
-    img: img1,
+    img: bfmenu3,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["8o.z Top Sirloin with Two Eggs any Style", "Toast & Hash Browns"],
@@ -71,7 +76,7 @@ export const foods: food[] = [
   {
     id: 4,
     title: "Back Bacon & Eggs",
-    img: img1,
+    img: bfmenu4,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["Back Bacon with Two Eggs any Style", "Toast & Hash Browns"],
