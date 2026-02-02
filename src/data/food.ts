@@ -5,7 +5,14 @@ import bfmenu4 from "../assets/images/smiley/menus/breakfast/menu4.svg";
 import bfmenu5 from "../assets/images/smiley/menus/breakfast/menu5.svg";
 import bfmenu6 from "../assets/images/smiley/menus/breakfast/menu6.svg";
 import bfmenu7 from "../assets/images/smiley/menus/breakfast/menu7.svg";
-import img1 from "../assets/images/smiley/menus/default.svg";
+import bfmenu8 from "../assets/images/smiley/menus/breakfast/menu8.svg";
+import bfmenu9 from "../assets/images/smiley/menus/breakfast/menu9.svg";
+import bfmenu10 from "../assets/images/smiley/menus/breakfast/menu10.svg";
+import bfmenu11 from "../assets/images/smiley/menus/breakfast/menu11.svg";
+import bfmenu12 from "../assets/images/smiley/menus/breakfast/menu12.svg";
+import bfmenu13 from "../assets/images/smiley/menus/breakfast/menu13.svg";
+import bfmenu14 from "../assets/images/smiley/menus/breakfast/menu14.svg";
+// import img1 from "../assets/images/smiley/menus/default.svg";
 
 import pImg1 from "../assets/images/thumb/popular-1.png";
 import tagImg from "../assets/images/victor/populer.png";
@@ -129,19 +136,19 @@ export const foods: food[] = [
   {
     id: 8,
     title: "Plain Omelet",
-    img: img1,
+    img: bfmenu8,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["Toast & Hash Brown"],
     reviews: "5.0",
-    price: 14.95,
+    price: 13.95,
     offer: "",
     tags: tagImg,
   },
   {
     id: 9,
     title: "Make Your Own Omelet",
-    img: img1,
+    img: bfmenu9,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: [
@@ -156,7 +163,7 @@ export const foods: food[] = [
   {
     id: 10,
     title: "Western Omelet",
-    img: img1,
+    img: bfmenu10,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: [
@@ -171,7 +178,7 @@ export const foods: food[] = [
   {
     id: 11,
     title: "Trans-Canada Trucker Special",
-    img: img1,
+    img: bfmenu11,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["Bacon & Sausage with Three Eggs any Style", "Toast & Hash Browns"],
@@ -183,7 +190,7 @@ export const foods: food[] = [
   {
     id: 12,
     title: "Eggs Benedict",
-    img: img1,
+    img: bfmenu12,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: [
@@ -198,7 +205,7 @@ export const foods: food[] = [
   {
     id: 13,
     title: "One Egg Any Style",
-    img: img1,
+    img: bfmenu13,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["1 Egg Any Style", "Toast & Hash Browns"],
@@ -210,7 +217,7 @@ export const foods: food[] = [
   {
     id: 14,
     title: "Flying Saucers",
-    img: img1,
+    img: bfmenu14,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["2 Buttermilk Pancakes", "Butter & Maple Syrup"],
