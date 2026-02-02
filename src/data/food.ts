@@ -2,7 +2,9 @@ import bfmenu1 from "../assets/images/smiley/menus/breakfast/menu1.svg";
 import bfmenu2 from "../assets/images/smiley/menus/breakfast/menu2.svg";
 import bfmenu3 from "../assets/images/smiley/menus/breakfast/menu3.svg";
 import bfmenu4 from "../assets/images/smiley/menus/breakfast/menu4.svg";
-
+import bfmenu5 from "../assets/images/smiley/menus/breakfast/menu5.svg";
+import bfmenu6 from "../assets/images/smiley/menus/breakfast/menu6.svg";
+import bfmenu7 from "../assets/images/smiley/menus/breakfast/menu7.svg";
 import img1 from "../assets/images/smiley/menus/default.svg";
 
 import pImg1 from "../assets/images/thumb/popular-1.png";
@@ -88,7 +90,7 @@ export const foods: food[] = [
   {
     id: 5,
     title: "Hotcakes",
-    img: img1,
+    img: bfmenu5,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["3 Traditional Buttermilk Pancakes", "Butter & Maple Syrup"],
@@ -100,7 +102,7 @@ export const foods: food[] = [
   {
     id: 6,
     title: "Hotcakes & Eggs",
-    img: img1,
+    img: bfmenu6,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: ["3 Traditional Buttermilk Pancakes", "Eggs any Style"],
@@ -112,7 +114,7 @@ export const foods: food[] = [
   {
     id: 7,
     title: "French Toast",
-    img: img1,
+    img: bfmenu7,
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: [
