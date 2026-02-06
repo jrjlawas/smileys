@@ -194,7 +194,7 @@ export const foods: food[] = [
     categoryName: "Breakfast Beginnings",
     isPopular: "N",
     items: [
-      "2 Eggs on English Muffins topped with premium back Bacon, Smothered in Creamy Hollandaise Sauce",
+      "English Muffins with premium back Bacon & Creamy Hollandaise Sauce",
       "Hash Browns",
     ],
     reviews: "5.0",

@@ -10,7 +10,8 @@ import PopularFood from "../components/popularFood";
 // import AppPart from "../components/app-part";
 import Footer from "../components/footer";
 import logo from "../assets/images/logo/footer-logo.svg";
-
+import Testimonials from "../components/testimonials";
+import ContactInfo from "../components/contact/contactInfo";
 function Home() {
   return (
     <div>
@@ -26,6 +27,8 @@ function Home() {
 
         {/* <Faq /> */}
         {/* <AppPart /> */}
+        <Testimonials />
+        <ContactInfo />
       </main>
       <Footer />
     </div>
