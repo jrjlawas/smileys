@@ -72,6 +72,14 @@ function Footer() {
                         <li>
                           <Link to="/contact">Contact Us</Link>
                         </li>
+                        <li>
+                          <Link
+                            to="https://main.d1497kvdc9gd8e.amplifyapp.com/"
+                            target="_"
+                          >
+                            Manage
+                          </Link>
+                        </li>
                         {/* <li>
                           <Link to="/dashboard">My Account</Link>
                         </li>

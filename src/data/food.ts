@@ -22,7 +22,7 @@ export interface food {
   title: string;
   img: string;
   categoryName: String;
-  isPopular: string;
+  isPopular: boolean;
   items: string[];
   reviews: string;
   price: number;
@@ -46,12 +46,13 @@ export interface foodCategory {
 }
 
 export const foods: food[] = [
+  //#region Breakfast Beginning
   {
     id: 1,
     title: "Two Eggs Any Style",
     img: bfmenu1,
     categoryName: "Breakfast Beginnings",
-    isPopular: "Y",
+    isPopular: true,
     items: ["Serve with Toast & Hash Browns"],
     reviews: "5.0",
     price: 11.95,
@@ -63,7 +64,7 @@ export const foods: food[] = [
     title: "Bacon, Ham, or Sausage & Eggs",
     img: bfmenu2,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["Serve with Eggs, Toast & Hash Browns"],
     reviews: "5.0",
     price: 14.95,
@@ -75,7 +76,7 @@ export const foods: food[] = [
     title: "Steak & Eggs",
     img: bfmenu3,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["8o.z Top Sirloin with Two Eggs any Style", "Toast & Hash Browns"],
     reviews: "5.0",
     price: 28.95,
@@ -87,7 +88,7 @@ export const foods: food[] = [
     title: "Back Bacon & Eggs",
     img: bfmenu4,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["Back Bacon with Two Eggs any Style", "Toast & Hash Browns"],
     reviews: "5.0",
     price: 16.95,
@@ -99,7 +100,7 @@ export const foods: food[] = [
     title: "Hotcakes",
     img: bfmenu5,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["3 Traditional Buttermilk Pancakes", "Butter & Maple Syrup"],
     reviews: "5.0",
     price: 12.95,
@@ -111,7 +112,7 @@ export const foods: food[] = [
     title: "Hotcakes & Eggs",
     img: bfmenu6,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["3 Traditional Buttermilk Pancakes", "Eggs any Style"],
     reviews: "5.0",
     price: 16.95,
@@ -123,7 +124,7 @@ export const foods: food[] = [
     title: "French Toast",
     img: bfmenu7,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: [
       "3 Slices of grilled French Bread with Egg",
       "Butter & Maple Syrup",
@@ -138,7 +139,7 @@ export const foods: food[] = [
     title: "Plain Omelet",
     img: bfmenu8,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["Toast & Hash Brown"],
     reviews: "5.0",
     price: 13.95,
@@ -150,7 +151,7 @@ export const foods: food[] = [
     title: "Make Your Own Omelet",
     img: bfmenu9,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: [
       "3 Eggs Blended with Toppings of your Choice: Ham, Mushroom, Cheese, Pepper, Onions",
       "2.00 For Each Toppings",
@@ -165,7 +166,7 @@ export const foods: food[] = [
     title: "Western Omelet",
     img: bfmenu10,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: [
       "3 Eggs Blended with Diced Ham, Green Pepper, Onions, Cheese and Mushrooms",
       "Toast & Hash Browns",
@@ -180,7 +181,7 @@ export const foods: food[] = [
     title: "Trans-Canada Trucker Special",
     img: bfmenu11,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["Bacon & Sausage with Three Eggs any Style", "Toast & Hash Browns"],
     reviews: "5.0",
     price: 17.95,
@@ -192,7 +193,7 @@ export const foods: food[] = [
     title: "Eggs Benedict",
     img: bfmenu12,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: [
       "English Muffins with premium back Bacon & Creamy Hollandaise Sauce",
       "Hash Browns",
@@ -207,7 +208,7 @@ export const foods: food[] = [
     title: "One Egg Any Style",
     img: bfmenu13,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["1 Egg Any Style", "Toast & Hash Browns"],
     reviews: "5.0",
     price: 8.5,
@@ -219,13 +220,14 @@ export const foods: food[] = [
     title: "Flying Saucers",
     img: bfmenu14,
     categoryName: "Breakfast Beginnings",
-    isPopular: "N",
+    isPopular: false,
     items: ["2 Buttermilk Pancakes", "Butter & Maple Syrup"],
     reviews: "5.0",
     price: 10.0,
     offer: "",
     tags: tagImg,
   },
+  //#endregion
 ];
 
 export const popularFoods: popularFood[] = [

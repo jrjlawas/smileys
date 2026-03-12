@@ -8,15 +8,16 @@ function PopularFood() {
         <div className="row">
           <div className="col-lg-12">
             <div className="popular-head">
-              <h2>Most Popular Items</h2>
+              <h2>Most Ordered Items</h2>
             </div>
           </div>
         </div>
-
         <div className="row popular-item-box-mt">
-          {foods?.map((food) => (
-            <PopularFoodCard key={food.id} food={food} />
-          ))}
+          {foods
+            ?.filter((food) => food.isPopular)
+            .map((food) => (
+              <PopularFoodCard key={food.id} food={food} />
+            ))}
         </div>
       </div>
     </section>
