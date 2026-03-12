@@ -17,6 +17,7 @@ export interface gridFoodInt {
   id: number;
   title: string;
   img: string;
+  isPopular: boolean;
   categoryName: String;
   items: string[];
   reviews: string;
@@ -40,6 +41,7 @@ export const gridFoods: gridFoodInt[] = [
     title: "Pork Chop with Apple Chutney",
     img: img1,
     categoryName: "",
+    isPopular: true,
     items: ["4 Piece Chicken", "Spicy Sauce"],
     reviews: "4.7(2.5K)",
     price: 18.0,
